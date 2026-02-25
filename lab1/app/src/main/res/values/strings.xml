@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <string name="password_hint">Будь ласка, введіть пароль</string>
+    <string name="mode_label">Оберіть режим введення:</string>
+    <string name="show_stars">Відображати зірочки</string>
+    <string name="show_text">Відображати введені символи</string>
+    <string name="ok_button">OK</string>
+    <string name="default_result">Поле для введеного паролю</string>
+    <string name="error_title">Помилка</string>
+    <string name="error_message">Будь ласка, введіть пароль!</string>
+    <string name="result_text">Введений пароль: %s</string>
+</resources>
