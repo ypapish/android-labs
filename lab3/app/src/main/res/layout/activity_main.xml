@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_input"
+        android:name="com.example.lab3.InputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_input" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_result" />
+
+    <Button
+        android:id="@+id/buttonOpenStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_storage"
+        android:layout_margin="16dp" />
+
+</LinearLayout>

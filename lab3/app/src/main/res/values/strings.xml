@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <string name="password_hint">Будь ласка, введіть пароль</string>
+    <string name="mode_label">Оберіть режим введення:</string>
+    <string name="show_stars">Відображати зірочки</string>
+    <string name="show_text">Відображати введені символи</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="default_result">Поле для введеного паролю</string>
+    <string name="error_title">Помилка</string>
+    <string name="error_message">Будь ласка, введіть пароль!</string>
+    <string name="result_text">Введений пароль: %s</string>
+    <string name="open_storage">Відкрити сховище</string>
+    <string name="save_success">Пароль успішно збережено</string>
+    <string name="error_saving">Помилка при збереженні паролю</string>
+    <string name="no_data">Немає збереженого паролю</string>
+    <string name="clear_data">Очистити пароль</string>
+    <string name="data_cleared">Пароль видалено</string>
+    <string name="error_reading_file">Помилка при читанні файлу</string>
+</resources>
