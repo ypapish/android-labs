@@ -16,7 +16,6 @@
         android:layout_gravity="center"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Кути нахилу -->
     <TextView
         android:id="@+id/textViewAngleX"
         android:layout_width="match_parent"
@@ -47,7 +46,6 @@
         android:background="@android:drawable/editbox_background"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Лінія горизонту (статичне перехрестя + рухома бульбашка) -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -64,7 +62,6 @@
         android:background="@drawable/level_background"
         android:layout_marginBottom="16dp">
 
-        <!-- Горизонтальна лінія (статична) -->
         <View
             android:id="@+id/viewHorizontalLine"
             android:layout_width="match_parent"
@@ -72,7 +69,6 @@
             android:background="@color/gray_dark"
             android:layout_gravity="center_vertical"/>
 
-        <!-- Вертикальна лінія (статична) -->
         <View
             android:id="@+id/viewVerticalLine"
             android:layout_width="2dp"
@@ -80,7 +76,6 @@
             android:background="@color/gray_dark"
             android:layout_gravity="center_horizontal"/>
 
-        <!-- Рухома бульбашка -->
         <View
             android:id="@+id/viewBubble"
             android:layout_width="24dp"
@@ -90,7 +85,6 @@
 
     </FrameLayout>
 
-    <!-- Статус -->
     <TextView
         android:id="@+id/textViewStatus"
         android:layout_width="match_parent"
@@ -103,7 +97,6 @@
         android:background="@drawable/level_background"
         android:layout_marginBottom="16dp"/>
 
-    <!-- Кнопки -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
