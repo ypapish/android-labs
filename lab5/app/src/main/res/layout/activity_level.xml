@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/gray_light">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_level"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Кути нахилу -->
+    <TextView
+        android:id="@+id/textViewAngleX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_angle"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewAngleY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_angle_y"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewAngleZ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_angle_z"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Лінія горизонту (статичне перехрестя + рухома бульбашка) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/horizon_line_label"
+        android:textSize="14sp"
+        android:textColor="@color/gray_dark"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp"/>
+
+    <FrameLayout
+        android:id="@+id/frameBubbleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/level_background"
+        android:layout_marginBottom="16dp">
+
+        <!-- Горизонтальна лінія (статична) -->
+        <View
+            android:id="@+id/viewHorizontalLine"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/gray_dark"
+            android:layout_gravity="center_vertical"/>
+
+        <!-- Вертикальна лінія (статична) -->
+        <View
+            android:id="@+id/viewVerticalLine"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/gray_dark"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Рухома бульбашка -->
+        <View
+            android:id="@+id/viewBubble"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/bubble"
+            android:layout_gravity="center"/>
+
+    </FrameLayout>
+
+    <!-- Статус -->
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_status"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/level_background"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Кнопки -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        style="?android:attr/buttonBarStyle">
+
+        <Button
+            android:id="@+id/buttonResetCalibration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/reset_calibration"
+            android:padding="12dp"
+            android:layout_marginEnd="8dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:id="@+id/buttonToggleVibration"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vibration_on"
+            android:padding="12dp"
+            android:layout_marginStart="8dp"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonSaveHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_measurement"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewAccuracy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/default_accuracy"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="@color/gray_dark"/>
+
+</LinearLayout>

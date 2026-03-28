@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Будівельний рівень</string>
+    <string name="start_level">Запустити рівень</string>
+    <string name="title_level">Будівельний рівень</string>
+    <string name="angle_x">Кут нахилу X: %1$.1f°</string>
+    <string name="angle_y">Кут нахилу Y: %1$.1f°</string>
+    <string name="angle_z">Кут нахилу Z: %1$.1f°</string>
+    <string name="level_status">Статус: %s</string>
+    <string name="level_horizontal">горизонтально</string>
+    <string name="level_tilt_x">нахил по х →</string>
+    <string name="level_tilt_x_left">← нахил по х</string>
+    <string name="level_tilt_y">нахил по у ↑</string>
+    <string name="level_tilt_y_down">↓ нахил по у</string>
+    <string name="level_tilt_both">нахил по обох осях</string>
+    <string name="reset_calibration">Калібрування</string>
+    <string name="vibration_on">Вібрація: увімк.</string>
+    <string name="vibration_off">Вібрація: вимк.</string>
+    <string name="view_history">Історія</string>
+    <string name="clear_history">Очистити історію</string>
+    <string name="history_title">Історія вимірювань</string>
+    <string name="history_empty">Історія порожня</string>
+    <string name="calibrated">Калібрування виконано</string>
+    <string name="accuracy_high">Висока точність</string>
+    <string name="accuracy_medium">Середня точність</string>
+    <string name="accuracy_low">Низька точність</string>
+    <string name="accuracy_unreliable">Дані недостовірні</string>
+    <string name="accuracy_label">Точність: %s</string>
+    <string name="horizon_line_label">Лінія горизонту</string>
+    <string name="measurement_saved">Вимірювання збережено</string>
+    <string name="sensor_unavailable">Датчик акселерометра недоступний</string>
+    <string name="default_angle">Кут нахилу X: 0.0°</string>
+    <string name="default_angle_y">Кут нахилу Y: 0.0°</string>
+    <string name="default_angle_z">Кут нахилу Z: 0.0°</string>
+    <string name="default_status">Статус: горизонтально</string>
+    <string name="uses_accelerometer">Використовує акселерометр</string>
+    <string name="default_accuracy">Точність: Висока</string>
+    <string name="save_measurement">Зберегти вимірювання</string>
+</resources>
